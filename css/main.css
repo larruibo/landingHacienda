@@ -10,12 +10,22 @@ body{
   position: relative;
   z-index: 2;
 }
+.texto-banner{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  height: 70px;
+  line-height: 28px;
+}
+.texto-banner h2{
+  font-size: 28px;
+  color: white;
+}
 .logo-banner{
   width: 90px;
   position: relative;
-  margin: 0 auto;
-
-
+  display: inline-block;
 }
 .logo-banner img{
   height: 90px;
@@ -60,7 +70,6 @@ body{
 }
 .seccion-formulario{
   position: relative;
-  background-color: #11192D;
   height: 100vh;
 }
 .seccion-formulario img{
@@ -182,7 +191,7 @@ body{
   height: 90vh;
   margin: 0 auto;
 }
-.margen-footer{
+.margen{
   max-width: 1260px;
   position: relative;
   margin: 0 auto;
@@ -407,6 +416,9 @@ body{
   .flotante span{
     font-size: 32px;
   }
+  .texto-banner{
+    right: 30px;
+  }
   @media screen and (max-width: 770px)
   {
     .flotante{
@@ -471,6 +483,13 @@ body{
     }
     .contacto-footer span{
       font-size: 2vh;
+    }
+    .texto-banner{
+      line-height: 70px;
+    }
+    .texto-banner h2{
+      font-size: 2.2vh;
+      margin: 0;
     }
   }
 
