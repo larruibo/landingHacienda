@@ -60,7 +60,7 @@
         <img src="fotos/banner-hacienda/2.jpg" alt="">
       </div>
       <div class="margen-contenido" style="height: 100vh;">
-        <form id="contactForm" class="formulario" action="/" method="post">
+        <form id="contactForm" class="formulario" action="./" method="post">
           <h2>Últimas fechas con el 10% de descuento</h2>
           <h3>1 de Diciembre</h3>
           <h3>15 de Diciembre</h3>
@@ -75,7 +75,7 @@
           <label for="description">Descripción</label>
           <textarea name="description" rows="5" cols="40" required></textarea>
           <div class="boton">
-            <button class="g-recaptcha" data-sitekey="6LeR1DMUAAAAAEcBObfZPLLU0iz-AWeHKLj5qsJd" data-callback="submitForm">
+            <button class="g-recaptcha" data-sitekey="6Le1JzoUAAAAAJ9zDsTil6c1tR22pFc2uQjKqa1t" data-callback="submitForm">
               Enviar
             </button>
           </div>
@@ -122,7 +122,7 @@
     <a href="#formulario"><div class="flotante">
       <span>Contacto</span>
     </div></a>
-    <!-- <?php include_once('sendmail.php'); ?> -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </body>
 </html>
+<?php include_once('sendmail.php'); ?>
